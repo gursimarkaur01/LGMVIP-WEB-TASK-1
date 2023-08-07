@@ -2,23 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"content = "IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="todo.css">
+    <title>Sahib</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-    <h1>MY TO DO LIST</h1>
-    <div class="inputs">
-        <input type = "text" placeholder="Title..." id="inp">
-        <button onclick="ADD()">Add</button>
+   <div class="container">
+    <div class="todo-app">
+        <h2><img src="todo1.png" alt="logo">To-Do List</h2>
+        <div class="inp">
+            <input type=""text id="input-box" placeholder="Enter Text...">
+            <button onclick="AddTask()">Add</button>
+        </div>
+        <ul id="list-container">
+            <!--<span class="material-icons">close</span>
+                 <li class="checked">Task1</li>
+            <li>Task2</li>
+            <li>Task3</li> -->
+        </ul>
     </div>
-    <div class="text">
-    </div>
-</div>
-    <script src="todo.js"></script>
+   </div> 
+   <script src="script.js"></script>
 </body>
 </html>
